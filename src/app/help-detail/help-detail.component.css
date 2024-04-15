@@ -1,0 +1,78 @@
+/* help.component.css */
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #11276e; /* Adjust the color as needed */
+    max-width: 400px;
+    border-radius: 15px;
+    padding-top: 5px;
+  }
+  .outerContainer{
+      display: flex;
+      flex-direction: row;
+      align-items:start;
+  }
+
+  .help-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+    /* margin-left: 20%; */
+  }
+  
+  .emergency-section,
+  .harassment-section,
+  .scam-section {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #87CEEB; /* Light background color, close to cream */
+    transition: background-color 0.3s ease-in-out; /* Add a smooth background color transition */
+  }
+  
+  .emergency-section:hover,
+  .harassment-section:hover,
+  .scam-section:hover {
+    background-color: #FFFAF0; /* Lighter background color on hover */
+  }
+  
+  .emergency-section p,
+  .harassment-section p,
+  .scam-section p {
+    margin: 5px 0;
+  }
+  
+  /* Styling for icons */
+  .fa-phone,
+  .fa-envelope,
+  .fa-map-marker-alt {
+    margin-right: 5px;
+    color: #000000;
+  }
+  
+  /* Animation for icon on hover */
+  .fa-phone:hover,
+  .fa-envelope:hover,
+  .fa-map-marker-alt:hover {
+    transform: rotate(360deg);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  /* .helpimg img{
+    margin-top: 70px;
+    margin-left: 30%;
+  } */
+
+  .greybox{
+    width: 80%;
+    height: 100px;
+    color: #FFFAF0;
+  }
+  
